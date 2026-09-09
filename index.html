@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tava Barato, Comprei — Grupo de Promoções no WhatsApp</title>
+<meta name="description" content="Grupo gratuito no WhatsApp com as melhores promoções e cupons do Mercado Livre, Shopee e Amazon. Entre agora e não perca mais nenhum desconto.">
+
+<!-- ====== OPEN GRAPH (preview bonito quando alguém compartilha o link) ====== -->
+<meta property="og:title" content="Tava Barato, Comprei — Grupo de Promoções">
+<meta property="og:description" content="Promoções e cupons selecionados todo dia, direto no seu WhatsApp. É de graça.">
+<meta property="og:type" content="website">
+
+<!-- ==================================================================== -->
+<!-- PIXEL DA META — COLE SEU ID NO LUGAR DE 000000000000000 (2 lugares)  -->
+<!-- Se ainda não tem o Pixel, pode deixar como está que a página funciona -->
+<!-- ==================================================================== -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '000000000000000');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=000000000000000&ev=PageView&noscript=1"/></noscript>
+<!-- ====================== FIM DO PIXEL ====================== -->
+
+<style>
+  :root{
+    --verde:#25D366;
+    --verde-escuro:#128C7E;
+    --fundo:#0f1115;
+    --card:#181b22;
+    --borda:#262a33;
+    --texto:#e8eaed;
+    --texto-suave:#a0a6b1;
+    --destaque:#ffd24a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--fundo);
+    color:var(--texto);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:600px;margin:0 auto;padding:0 20px}
+  section{padding:44px 0}
+
+  /* ---------- TOPO ---------- */
+  header{
+    text-align:center;
+    padding:52px 0 40px;
+    background:radial-gradient(circle at 50% 0%, rgba(37,211,102,.16), transparent 62%);
+  }
+  .selo{
+    display:inline-block;
+    background:rgba(37,211,102,.12);
+    border:1px solid rgba(37,211,102,.35);
+    color:var(--verde);
+    font-size:13px;
+    font-weight:600;
+    padding:6px 14px;
+    border-radius:999px;
+    margin-bottom:20px;
+  }
+  h1{
+    font-size:34px;
+    line-height:1.2;
+    font-weight:800;
+    letter-spacing:-.5px;
+    margin-bottom:14px;
+  }
+  h1 span{color:var(--verde)}
+  .sub{
+    font-size:17px;
+    color:var(--texto-suave);
+    max-width:440px;
+    margin:0 auto 28px;
+  }
+
+  /* ---------- BOTÃO ---------- */
+  .btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    width:100%;
+    background:var(--verde);
+    color:#08210f;
+    font-size:18px;
+    font-weight:700;
+    text-decoration:none;
+    padding:17px 22px;
+    border-radius:14px;
+    box-shadow:0 6px 22px rgba(37,211,102,.28);
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn:active{transform:scale(.98)}
+  .btn:hover{box-shadow:0 8px 28px rgba(37,211,102,.42)}
+  .btn svg{width:24px;height:24px;flex-shrink:0}
+  .btn-nota{
+    text-align:center;
+    font-size:13px;
+    color:var(--texto-suave);
+    margin-top:12px;
+  }
+
+  /* ---------- SEÇÕES ---------- */
+  h2{
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:20px;
+    letter-spacing:-.3px;
+  }
+  .lista{list-style:none;display:grid;gap:14px}
+  .lista li{
+    display:flex;
+    gap:12px;
+    align-items:flex-start;
+    background:var(--card);
+    border:1px solid var(--borda);
+    border-radius:12px;
+    padding:16px;
+  }
+  .lista .ic{font-size:20px;line-height:1.3}
+  .lista b{display:block;font-size:16px;margin-bottom:2px}
+  .lista p{font-size:14px;color:var(--texto-suave)}
+
+  /* ---------- EXEMPLO DE MENSAGEM ---------- */
+  .chat{
+    background:#0b141a;
+    border:1px solid var(--borda);
+    border-radius:14px;
+    padding:16px;
+    display:grid;
+    gap:10px;
+  }
+  .balao{
+    background:#1f2c33;
+    border-radius:10px 10px 10px 2px;
+    padding:12px 14px;
+    font-size:14.5px;
+    max-width:92%;
+  }
+  .balao .titulo{color:var(--destaque);font-weight:700}
+  .balao .antigo{color:var(--texto-suave);text-decoration:line-through;font-size:13px}
+  .balao .novo{color:var(--verde);font-weight:700;font-size:17px}
+  .balao .hora{
+    display:block;
+    text-align:right;
+    font-size:11px;
+    color:#6b7681;
+    margin-top:4px;
+  }
+
+  /* ---------- FAQ ---------- */
+  details{
+    background:var(--card);
+    border:1px solid var(--borda);
+    border-radius:12px;
+    padding:15px 16px;
+    margin-bottom:10px;
+  }
+  summary{
+    cursor:pointer;
+    font-weight:600;
+    font-size:15.5px;
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+  }
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";color:var(--verde);font-weight:700;font-size:20px;line-height:1}
+  details[open] summary::after{content:"−"}
+  details p{margin-top:10px;font-size:14.5px;color:var(--texto-suave)}
+
+  /* ---------- CTA FINAL ---------- */
+  .final{
+    background:linear-gradient(180deg, rgba(37,211,102,.10), transparent);
+    border-top:1px solid var(--borda);
+    text-align:center;
+  }
+  .final h2{margin-bottom:10px}
+  .final p{color:var(--texto-suave);margin-bottom:24px;font-size:15px}
+
+  /* ---------- RODAPÉ ---------- */
+  footer{
+    border-top:1px solid var(--borda);
+    padding:30px 0 40px;
+    font-size:12.5px;
+    color:#6b7681;
+    text-align:center;
+  }
+  footer a{color:#8b929d}
+  footer p{margin-bottom:10px}
+
+  /* ---------- BARRA FIXA NO CELULAR ---------- */
+  .barra{
+    position:fixed;
+    left:0;right:0;bottom:0;
+    padding:12px 20px calc(12px + env(safe-area-inset-bottom));
+    background:rgba(15,17,21,.92);
+    backdrop-filter:blur(10px);
+    border-top:1px solid var(--borda);
+    z-index:50;
+    transform:translateY(120%);
+    transition:transform .3s ease;
+  }
+  .barra.visivel{transform:translateY(0)}
+  .barra .btn{font-size:16.5px;padding:15px}
+  body{padding-bottom:90px}
+
+  @media(min-width:600px){
+    h1{font-size:40px}
+    .btn{width:auto;margin:0 auto;padding:17px 40px}
+    .barra .btn{width:100%;max-width:420px}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============================================================= -->
+<!-- TROQUE O LINK DO GRUPO: procure por  COLE_SEU_LINK_AQUI        -->
+<!-- Aparece 3 vezes no arquivo (topo, meio e barra fixa)           -->
+<!-- ============================================================= -->
+
+<header>
+  <div class="wrap">
+    <div class="selo">🛍️ Grupo gratuito · Vagas limitadas</div>
+    <h1>As promoções boas<br>acabam <span>rápido demais</span></h1>
+    <p class="sub">
+      Todo dia eu garimpo os melhores descontos e cupons do Mercado Livre,
+      Shopee e Amazon e mando direto no grupo. Você só entra e aproveita.
+    </p>
+    <a class="btn" href="COLE_SEU_LINK_AQUI" target="_blank" rel="noopener" onclick="entrarNoGrupo()">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.174.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      Entrar no grupo grátis
+    </a>
+    <p class="btn-nota">Sem cadastro · Sem pagar nada · Saia quando quiser</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>O que você recebe no grupo</h2>
+    <ul class="lista">
+      <li>
+        <span class="ic">🔥</span>
+        <div>
+          <b>Promoções conferidas uma por uma</b>
+          <p>Nada de link aleatório. Cada oferta é verificada antes de ir pro grupo.</p>
+        </div>
+      </li>
+      <li>
+        <span class="ic">🎟️</span>
+        <div>
+          <b>Cupons de desconto na hora que saem</b>
+          <p>Aqueles cupons que somem em poucas horas chegam pra você primeiro.</p>
+        </div>
+      </li>
+      <li>
+        <span class="ic">🤫</span>
+        <div>
+          <b>Grupo silencioso, sem bagunça</b>
+          <p>Só eu posto. Ninguém fica mandando bom dia, corrente ou conversa paralela.</p>
+        </div>
+      </li>
+      <li>
+        <span class="ic">📉</span>
+        <div>
+          <b>Preço de verdade, não maquiado</b>
+          <p>Só vai pro grupo o que realmente baixou de preço.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>É mais ou menos assim que chega</h2>
+    <div class="chat">
+      <div class="balao">
+        <span class="titulo">🛍️ Tava barato, comprei</span><br>
+        Fone Bluetooth JBL Tune 510BT<br>
+        <span class="antigo">De R$ 299,00</span><br>
+        <span class="novo">Por R$ 179,90</span><br>
+        🎟️ Cupom: <b>PROMO20</b>
+        <span class="hora">10:14</span>
+      </div>
+      <div class="balao">
+        <span class="titulo">🛍️ Tava barato, comprei</span><br>
+        Air Fryer Mondial 4L<br>
+        <span class="antigo">De R$ 429,00</span><br>
+        <span class="novo">Por R$ 249,00</span><br>
+        🔗 Link direto do produto
+        <span class="hora">19:32</span>
+      </div>
+    </div>
+    <p class="btn-nota" style="margin-top:14px">
+      Preços meramente ilustrativos. As ofertas reais mudam todos os dias.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Perguntas rápidas</h2>
+
+    <details>
+      <summary>É pago mesmo?</summary>
+      <p>Não. O grupo é 100% gratuito e sempre vai ser. Eu ganho uma pequena comissão da loja quando alguém compra por um link do grupo — e isso não aumenta em nada o preço pra você.</p>
+    </details>
+
+    <details>
+      <summary>Vão ficar mandando mensagem o dia todo?</summary>
+      <p>Não. O grupo é restrito: só administrador posta. Em média são poucas mensagens por dia, e você pode silenciar o grupo no WhatsApp e conferir quando quiser.</p>
+    </details>
+
+    <details>
+      <summary>Meu número fica exposto?</summary>
+      <p>Como em qualquer grupo do WhatsApp, outros participantes conseguem ver seu número. Se preferir mais privacidade, ajuste em Configurações do WhatsApp → Privacidade. Ninguém do grupo pode te mandar mensagem privada sem que você aceite.</p>
+    </details>
+
+    <details>
+      <summary>Posso sair depois?</summary>
+      <p>Pode, a qualquer momento, com dois toques e sem precisar avisar ninguém.</p>
+    </details>
+
+    <details>
+      <summary>De quais lojas são as promoções?</summary>
+      <p>Principalmente Mercado Livre, Shopee e Amazon. Todas são lojas conhecidas, com compra feita direto no site oficial delas.</p>
+    </details>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>Bora aproveitar?</h2>
+    <p>Leva 5 segundos pra entrar e pode te economizar bastante no fim do mês.</p>
+    <a class="btn" href="COLE_SEU_LINK_AQUI" target="_blank" rel="noopener" onclick="entrarNoGrupo()">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.174.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      Quero entrar no grupo
+    </a>
+    <p class="btn-nota">Grupo gratuito · Você sai quando quiser</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>Política de privacidade e cookies</b></p>
+    <p>
+      Este site não coleta nem armazena seus dados pessoais. Utilizamos cookies e
+      tecnologias da Meta (Pixel) apenas para medir o desempenho dos nossos anúncios.
+      Ao entrar no grupo, você passa a ser um participante do WhatsApp e se aplicam os
+      <a href="https://www.whatsapp.com/legal/privacy-policy-eea" target="_blank" rel="noopener">termos do WhatsApp</a>.
+      Você pode sair do grupo a qualquer momento.
+    </p>
+    <p>
+      Este site participa de programas de afiliados. Podemos receber comissão sobre
+      compras feitas através dos links divulgados, sem custo adicional para você.
+      Não somos responsáveis por preços, prazos ou entregas, que são de
+      responsabilidade das lojas anunciantes.
+    </p>
+    <p style="margin-top:16px">© <span id="ano"></span> Tava Barato, Comprei · Contato: <a href="mailto:SEU@EMAIL.COM">SEU@EMAIL.COM</a></p>
+  </div>
+</footer>
+
+<!-- Barra fixa que aparece ao rolar a página -->
+<div class="barra" id="barra">
+  <div class="wrap" style="padding:0">
+    <a class="btn" href="COLE_SEU_LINK_AQUI" target="_blank" rel="noopener" onclick="entrarNoGrupo()">
+      Entrar no grupo grátis →
+    </a>
+  </div>
+</div>
+
+<script>
+  document.getElementById('ano').textContent = new Date().getFullYear();
+
+  // Dispara o evento de conversão pro Pixel quando alguém clica no botão
+  function entrarNoGrupo(){
+    if (typeof fbq === 'function') {
+      fbq('track', 'Lead');
+    }
+  }
+
+  // Mostra a barra fixa depois que o usuário rola um pouco
+  var barra = document.getElementById('barra');
+  window.addEventListener('scroll', function(){
+    if (window.scrollY > 420) { barra.classList.add('visivel'); }
+    else { barra.classList.remove('visivel'); }
+  });
+</script>
+
+</body>
+</html>
