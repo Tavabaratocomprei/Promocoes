@@ -430,5 +430,13 @@ body{padding-bottom:86px}
   </a>
 </div>
 
+<script>
+/* Conta como Lead cada clique nos botões que levam ao grupo do WhatsApp */
+document.addEventListener("click", function (e) {
+  var a = e.target.closest && e.target.closest('a[href*="chat.whatsapp.com"]');
+  if (a && typeof fbq === "function") fbq("track", "Lead");
+});
+</script>
+
 </body>
 </html>
