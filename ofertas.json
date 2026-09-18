@@ -1,0 +1,28 @@
+[
+  {
+    "id": "exemplo-1",
+    "data": "2026-09-18",
+    "loja": "Amazon",
+    "categoria": "Casa",
+    "titulo": "EXEMPLO — troque por uma oferta real antes de publicar",
+    "imagem": "",
+    "preco_de": "R$ 240,00",
+    "preco_por": "R$ 68,00",
+    "cupom": "",
+    "link": "",
+    "comentario": "Este é um item de exemplo, só pra você ver o formato. Aqui vai o SEU texto sobre o produto: por que vale a pena, pra que você usaria, o que reparou no anúncio, se o desconto é real comparado ao preço dos últimos meses. É este parágrafo que a Amazon lê como conteúdo original — sem ele, o site é só uma lista de links."
+  },
+  {
+    "id": "exemplo-2",
+    "data": "2026-09-18",
+    "loja": "Amazon",
+    "categoria": "Ferramentas",
+    "titulo": "EXEMPLO — apague os dois exemplos quando tiver 10 ofertas reais",
+    "imagem": "",
+    "preco_de": "R$ 199,90",
+    "preco_por": "R$ 119,90",
+    "cupom": "EXEMPLO10",
+    "link": "",
+    "comentario": "Segundo exemplo. Repare que 'link' está vazio: enquanto estiver assim, o card aparece sem botão de compra. Assim que sua tag de associado sair, cole aqui o link com a tag e o botão aparece sozinho."
+  }
+]
